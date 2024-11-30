@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shawarma The Chef Art</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet/all.css" />
+    <style>
+        /* Custom Tailwind Config */
+        html {
+            --tw-primary-color: #4c82d9;
+        }
+
+        /* Apply the Poppins font with bold weight */
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700; /* Increase font weight for the entire body */
+        }
+        
+        h1, h2 {
+            font-weight: 700; /* Heading 1 and 2 with bolder weight */
+        }
+        
+        p, li, a {
+            font-weight: 600; /* Regular text with slightly increased weight */
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 font-sans">
+
+    <!-- Header Section -->
+    <header class="bg-[color:var(--tw-primary-color)] text-white md:py-8 py-4">
+        <div class="container mx-auto text-center">
+            <img src="https://images.deliveryhero.io/image/talabat/restaurants/37YdYEQO_400x400_637606545766216828.jpg?width=180"
+                alt="Restaurant Logo" class="w-44 h-44 mx-auto rounded-full mb-4">
+            <h1 class="md:text-4xl text-2xl font-bold">Shawarma The Chef Art</h1>
+            <div class="flex justify-center space-x-8 mt-6">
+                <!-- Social Media Icons -->
+                <a href="https://www.facebook.com/thechefart.uae/"
+                    class="text-[#1d4ed8] md:text-4xl text-3xl hover:text-white hover:bg-[#1d4ed8] hover:scale-125 hover:rotate-12 transition-all transform duration-300">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/thechefart_ae/"
+                    class="text-pink-500 md:text-4xl text-3xl hover:text-white hover:bg-pink-500 hover:scale-125 hover:rotate-12 transition-all transform duration-300">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@thechefart_"
+                    class="text-black md:text-4xl text-3xl hover:text-white hover:bg-gradient-to-r hover:from-[#69C9D0] hover:to-[#F6A5FF] hover:scale-125 hover:rotate-12 transition-all transform duration-300">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <main class="container mx-auto px-4 py-10 space-y-10">
+
+        <!-- Contact Details -->
+        <section class="bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-[color:var(--tw-primary-color)] mb-4">Contact Us</h2>
+            <p class="text-gray-700"><strong>Phone:</strong> +971 6 546 6296</p>
+        </section>
+
+        <!-- Location -->
+        <section class="bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-[color:var(--tw-primary-color)] mb-4">Location</h2>
+            <p class="text-gray-700">Muwaileh Commercial, Sharjah, United Arab Emirates</p>
+            <!-- Show on Map Button -->
+            <a href="https://www.google.com/maps/place/Shawarma+The+Chef+Art/@25.3107141,55.4538495,15z/data=!4m2!3m1!1s0x0:0xf3bfeb75e8499675?sa=X&ved=1t:2428&ictx=111"
+                target="_blank"
+                class="inline-block mt-4 text-white bg-[color:var(--tw-primary-color)] hover:bg-blue-600 py-2 px-6 rounded-lg transition-colors duration-300 font-semibold">
+                Show on Map
+            </a>
+        </section>
+
+        <!-- Online Ordering Section -->
+        <section class="bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-[color:var(--tw-primary-color)] mb-6">Also Available on:</h2>
+            <div class="flex flex-wrap gap-6 mt-6 justify-center">
+                <!-- Talabat -->
+                <a href="https://www.talabat.com/uae/restaurant/646291/shawrma-the-chef-art-muwaileh-commercial?aid=1530" target="_blank" class="text-center md:p-6 p-3 bg-blue-500 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-600 transition-colors duration-300 hover:scale-105">
+                    <p class="md:text-xl text-lg">Order from Talabat</p>
+                    
+                </a>
+                <!-- Noon -->
+                <a href="https://food.noon.com/" target="_blank" class="text-center md:p-6 p-3 bg-yellow-500 text-white font-semibold rounded-lg shadow-lg hover:bg-yellow-600 transition-colors duration-300 hover:scale-105">
+                    <p class="md:text-xl text-lg">Order from Noon</p>
+                    
+                </a>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <section class="bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-[color:var(--tw-primary-color)] mb-4 ">Our Menu</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto ">
+                <img src="images/IMG-20241130-WA0222.jpg" alt="Menu Item 3" class="w-full object-cover rounded-lg">
+                <img src="images/IMG-20241130-WA0221.jpg" alt="Menu Item 2" class="w-full object-cover rounded-lg">
+                <img src="images/IMG-20241130-WA0223.jpg" alt="Menu Item 3" class="w-full object-cover rounded-lg">
+                <img src="images/IMG-20241130-WA0224.jpg" alt="Menu Item 3" class="w-full object-cover rounded-lg">
+                <img src="images/IMG-20241130-WA0220.jpg" alt="Menu Item 1" class="w-full object-cover rounded-lg">
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
